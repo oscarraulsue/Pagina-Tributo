@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+body .continer{
+    background-image: url(https://i.pinimg.com/originals/6c/c9/92/6cc992cc12755ad5b88b58ead3125ce6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#title{
+    font-family: 'Allison';
+    color: rgb(1, 4, 7);
+    font-weight: bold;
+    font-size: 14rem;
+   width: 100%;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    margin: -10.7rem auto;
+    text-shadow: 0.1rem 0.5rem 1rem white;
+}
+
+.carousel-item img{
+    height: 80vh;
+    width: 100%;
+}
+header{
+    border-bottom: 0.7rem double black;
+}
+.headResum{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 2rem;
+}
+.headResum .p1{
+ color: bisque;
+ font-style:italic;
+ font-family:serif;
+}
+.headResum .p2{
+    color: black;
+    text-shadow: 0 1px 3px white;
+    font-weight: bold;
+}
+body .resum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.39);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 70px;
+    color:aliceblue;
+    text-shadow: 1px 1px 1px rgb(8, 8, 8);
+}
+#image{
+    width:400px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: -18rem;
+}
+#tribute-info h2{
+    color: rgb(133, 4, 4);
+    background-color: aliceblue;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  margin: auto;
+
+    margin-top: -6.1rem;
+    position: absolute;
+    text-shadow: 2px 2px 3px rgb(12, 6, 6);
+}
+#bandera{
+    width: 100%;
+    height:150px;
+    
+}
+.info{
+    background-color:white;
+width:77.2%;
+align-items: center;
+margin-left: 12.1%;
+padding: 30px;
+border-right: solid 4px rgba(107, 103, 103, 0.979);
+border-left: solid 4px rgba(107, 103, 103, 0.979);
+border-bottom: solid 4px rgba(107, 103, 103, 0.979);
+line-height: 2;
+color: rgb(0, 0, 0);
+}
+#navbar{
+    position:fixed;
+	z-index:1000;
+    width: 100%;
+
+}
+
+#car{
+    margin-top: -8rem;
+    margin-left: 15rem ;
+    margin-bottom: -6rem;
+}
+blockquote p{
+    background-color: rgba(255, 255, 255, 0.24);
+    margin: 30px auto;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    text-shadow: 1px 1px 5px white;
+    
+}
+footer h3{
+    background-color:black;
+    text-align:center;
+    margin-top:0;
+    padding: 22px;
+    font-size:20px;
+}
